@@ -1,0 +1,19 @@
+Dataset:  botoxmig.dat
+
+Source: R.A. Behmand, T. Tucker, and B. Guyuron (2003). "Single-Site
+Botulinum Toxin Type A Injection for Elimination of Migraine Trigger
+Points", Headache, Vol. 43: 1085-1089.
+
+Description: Patient Demographics and Pre- and Post- Treatment
+Results for Botoxin in Patients Suffering Migraines.
+
+Variables/Columns
+
+Patient ID   7-8
+Age  15-16
+Gender  24   /* 1=Female, 2=Male */
+Aura/Nonaura Status   32   /*  1=A, 2=N, 3=A/N  */
+Pre-Tx Headache Freq per Month  39-40
+Pre-Tx Headache Intensity per month  47-48  /* 0-10 scale  */
+Post-Tx Headache Freq per month    55-56
+Post-Tx Headache Intensity per month   63  /*  0-10 scale  */

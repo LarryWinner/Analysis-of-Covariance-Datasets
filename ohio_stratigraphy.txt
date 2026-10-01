@@ -1,0 +1,27 @@
+Dataset:  ohio_stratigraphy.csv
+
+Source: R.M. Flores (1968). "Simple Linear Regression as a Means of 
+Predicting the Thickness of Middle Alleghany Stratigraphical Interval
+in Eastern Ohio," Journal of Sedimentary Petrology, Vol. 38, #2, pp. 400-410.
+
+Description:
+Simple linear regression and analysis of covariance with
+Y = Total Thickness Middle Kittanning-Lower Freeport Interval (Feet)
+X = Total Thickness Sandstone (Feet)
+Facies Areas:  1= fluvio-lacustrine   2= brackish-marine
+Quadrangle areas:
+In Facies Area 1: Athens (1), Logan (2), New Lexington (3) Philo (4),
+                  Zaleski (5), Zanesville (6)
+In Facies Area 2: Alliance (7), Carrollton (8), Conesville (9),
+        Coshocton (10), Dover (11), Navarre (12), Newcomerstown (13),
+        Scio (14), Ulrichsville (15).
+ANCOVAs fit for several quadrangles within each facies area,
+    and for the 2 facies areas
+
+Variables
+Quadrangle
+QuadID
+faciesarea
+Stratsect    /* ID for locations within quadrangles  */
+Intervalthick
+sandstone

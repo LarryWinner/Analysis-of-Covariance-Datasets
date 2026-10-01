@@ -1,0 +1,21 @@
+Dataset:  woolwetair.dat
+
+Source: J. Lindberg (1953). "Relationship Between Various Surface Properties
+of Wool Fibers: Part I: Methods for Estimating Wool Fiber Modification,"
+Textitle Research Journal, Vol.23 #2, pp. 67-77
+
+Description: Square Roots of Hookean Slope in water (Y) and Hookean
+Slope in 65% Relative Humidity for 10 replicates of wool fiber under
+six treatments(untreated, Ether-extracted, Ether and alcohol-extracted,
+alcoholic potash @ 15 sce, AP@4min, AP@15min). Regression fit for
+each treatment (ANCOVA) is: Y=b0+B1*X
+
+Variables/Columns
+Square Root Hookean Slope in H2O   4-8
+Square Root Hookean Slope in RH65%  12-16
+Trt   24  /* 1=Untrt, 2=Eth-Ext, 3=Eth/Alc-Ext, 4=AP15s, 5=AP4m, 6=AP15m */
+Eth-Ext Dummy    32
+Eth/Alc-Ext  Dummy   40
+AP15s Dummy      48
+AP4m Dummy       56
+AP15m Dummy      64

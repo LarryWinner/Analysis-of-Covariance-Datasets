@@ -1,0 +1,17 @@
+Dataset: feltmarker.dat
+
+Source: P.J. McClure and E.J. West (1969). "Sales Effects of a New 
+Counter Display," Journal of Advertising Research, Vol.9, #1, pp. 29-34.
+
+Description: Weekly sales of felt-tip markers in 4 drug and 
+4 stationary stores pre- and during use of a Counter Display 
+2 Experimental and 2 control stores per store type, 3 weeks pre- and during
+experiment.
+
+Variables/ Columns
+Store Type    8    /* 1=Drug, 2=Stationary  */
+Condition     16   /* 1=Experimental, 2=Control   */
+Store Number  24
+Period        32  /* 1=Pre-test, 2=Test Period  */
+Week          40
+Sales ($)     42-48

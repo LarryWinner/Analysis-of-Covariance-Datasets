@@ -1,0 +1,13 @@
+Dataset:  sightsing.dat
+
+Source: D. Hutton (1953). "A Comparative Study of Two Methods of Teaching
+Sight Singing in the Fourth Grade," Journal of Research in Music Education,
+Vol.1 #2, pp.119-126.
+
+Description: Pre- and Post-Training scores for 20 kids assigned
+to a control group, and 20 in an experimental condition.
+
+Variables/Columns
+Treatment Group  8  /* 1=Control, 2=Experimental  */
+Initial Test Score  13-16
+Final Test Score   21-24

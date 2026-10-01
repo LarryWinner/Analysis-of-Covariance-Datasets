@@ -1,0 +1,27 @@
+Dataset: trombone.dat
+
+Source: S.L. Ross(1985). "The Effectiveness of Mental Practice in
+Improving the Performance of College Trombonists," Journal of
+Research in Music Education, Vol.33,  #4, pp.221-230
+
+Description: Comparison of 5 experimental practice conditions
+for 30 trombonists from 3 colleges. Pre-test and post-test scores.
+Conditions:
+1=All Physical Practice  (PP)
+2=All mental practice  (MP)
+3=Combination of physical and mental (CP)
+4=Mental Practice with simulated slide movement (MPS)
+5= No Practice Control  (NP)
+
+Variables/Columns
+Condition    8
+Pre-Practice   15-16
+Post-Practice  23-24
+PP dummy    32
+MP dummy    40
+CP Dummy    48
+MPS Dummy   56
+PPxPre      63-64
+MPxPre      71-72
+CPxPre      79-80
+MPSxPre     87-88

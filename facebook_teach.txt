@@ -1,0 +1,17 @@
+Dataset: facebook_teach.csv
+
+Source:  C. Saini and J. Abraham (2019). "Implementing Facebook-Based
+Instructional Approach in Pre-Service Teacher Education: An Empirical 
+Investigation," Computers & Education, Vol. 128, pp. 243-255.
+
+Description: Experiment to compare a Facebook-based method with 
+a Control group on learning achievement for pre-service teachers.
+Pre-treatment scores were used as covariate in ANCOVA. Data were
+generated to match means and standard deviations in all 
+pre/post and treatment conditions, as well as correlation between 
+pre- and post scores within treatment groups.
+
+Variable names:
+pre_lrn    (Pre-Treatment learning achievement score)
+Trt        (1=Facebook Group,  0=Control)
+post_lrn   (Post-Treatment learning achievement score)

@@ -1,0 +1,25 @@
+Dataset:  sardinella.dat
+
+Source: D.E. Wohlshag (1957). "Differences in Metabolic Rates of Migratory
+and Resident Freshwater Forms of an Arctic Whitefish," Ecology,
+Vol. 38, pp. 502-510
+
+Description: Measurements made on specimens of Coregonus Sardinella
+in Elson Lagoon (marine), and Ikroavik Lake (freshwater). Variables include:
+log(O2 consumption)
+log(weight(grams))
+log(mg O2 consumed/hr/kg)
+Rotations per minute
+Temp (Celsius)
+ANCOVA for log(O2) by environment, with log(weight) as covariate
+ANCOVA for log(mg O2/hr/day) by environment with RPM as covariate
+Other Mult Regs fit also.
+
+Variables/Columns
+Environment     8   /* 1=Lagoon (Marine),  2=Lake (freshwater)
+log(O2 consumption)  10-16 
+log(weight(grams))   18-24
+log(mg O2 consumed/hr/kg) 27-32
+Rotations per minute   36-40
+Temp (Celsius) 44-48
+Lagoon Dummy    56

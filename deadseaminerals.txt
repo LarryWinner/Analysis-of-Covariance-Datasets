@@ -1,0 +1,17 @@
+Dataset:  deadseaminerals.csv
+
+Source: Z. Ma'Or, S. Yehuda, and W. Voss (1997). "Skin Smoothing Effects of
+Dead sea Minerals: Comparative Profilometric Evaluation of Skin Surface,"
+International Journal of Cosmetic Science, Vol. 19, pp.105-110.
+
+Description: Analysis of Covariance comparing 3 treatments (pre/post)
+with response being skin roughness (lower scores are better).
+Treatments 1=Gel Formulation, 2=Gel+1% Dead Sea Concentrate, 3=Placebo
+Data generated to match means SDs, mins, maxs, correlations.
+
+Variable Names:
+trt_Grp
+pre_x    (baseline score)
+post_y   (4 weeks post trt score)
+gel      (Dummy variable for gel trt)
+gelDS    (Dummy variable for gel + Dead Sea Concentrate trt)

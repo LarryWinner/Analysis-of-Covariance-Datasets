@@ -1,0 +1,12 @@
+Dataset:  rainseed.dat
+
+Source: J. Meiten, W. Woodley, J. Flueck (1984). "Exploration
+of Extended-Area Treatment Effects in FACE-2 Using Satellite Imagery",
+Journal of Climate and Applied Meteorology, pp63-??
+
+Description: Rain-gauge depth of rainfall in test area on seeded and
+un-seeded days.
+
+Variables/Columns
+Seeding Indicator  8  /* 1=Seeded, 0=Unseeded  */
+Rainfall (mm)  13-16

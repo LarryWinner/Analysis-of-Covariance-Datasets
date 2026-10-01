@@ -1,0 +1,21 @@
+Dataset:  fat_intake.csv
+
+Source1: J. Brug, K. Glanz, P. Van Assema, G. Kok, G.J.P. van Breukelen (1998).
+"The Impact of Computer-Tailored Feedback and Iterative Feedback on Fat, Fruit,
+and Vegetable Intake," Health Education & Behavior, Vol. 28, #4, pp. 517-531.
+
+Source2: B. Winkens, G.J.P. van Breukelen, H.J.A. Schouten, M.P.F. Berger (2007).
+"Randomized Clinical Trials with a Pre- and Post-Treatment Measurement:
+Repeated Measures Versus ANCOVA Models." Contemporary Clinical Trials. Vol. 28, pp. 713-719.
+
+Description:
+Comparison of 3 informational treatments with respect to fat, fruit, and vegetable intake.
+Fat intake measurements made pre- and (second) post-treatment. 
+Data generated to match means, sds, r.
+Treatments: 1=General Information (GI), 2=Tailored Feedback (TF), 3=Iterative Feedback (IF))
+
+Variable Names: 
+infoGrp  (1,2,3)
+idGrp    (subject ID within group)
+preTrt   (X)
+postTrt  (Y)

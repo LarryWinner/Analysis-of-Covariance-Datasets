@@ -1,0 +1,19 @@
+Dataset: acupuncture_rotcuff.csv
+
+Source1: J. Kleinhenz, K. Streitberger, J. Windeler, et al. (1999). "Randomized Clinical Trial
+Comparing the Effects of Acupuncture and a Newly Designed Placebo Needle in Rotator Cuff Tendinitis,"
+Pain, Vol. 83, pp. 235-241.
+
+Source2: A.J. Vickers and D.G. Altman (2001). "Statistics Notes: Analyzing Controlled Trials
+with Baseline and Follow Up Measurements," BMJ: British Medical Journal, Nov. 10, 2001, Vol. 3 23, #7321,
+pp. 1123-1124.
+
+Description: Study comparing Acupuncture and Placebo for Rotator Cuff Tendinitis.
+Analysis of Covariance with Y=Post score, X=Pre score, Z=1 if Acupuncture, 0 if Placebo
+High scores mean less pain.
+
+Variable Names:
+Trt   (A, P)
+Z     (1 if Acupuncture, 0 if Placebo)
+X     (Pre treatment score)
+Y     (Post Treatment Score)

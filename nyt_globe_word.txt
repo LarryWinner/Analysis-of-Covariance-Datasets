@@ -1,0 +1,22 @@
+Dataset:  nyt_globe_word.dat
+
+Source: J. Dilevko and K. Grewal (1998). "Neutrality and Media Literacy
+  at the Reference desk: A Case Study," The Journal of Academic Librarianship,
+  Vol. 24, Issue 1, pp. 21-32.
+
+Description: Word Counts for articles in NY Times and re-prints in Globe 
+for articles in 5 Categories (1=Atts,Lifestyle,Personality, 2=Business,
+3=Science/Technology,4=International Politics,5=Environment,Race,Gender)
+Authors fit ANCOVA relating word count difference (NYT-Globe) to category
+and NYT word count. One article in category 5 was not included. Square
+root transformation was applied to word count difference.
+
+Variables/Columns
+Category    8
+Category 1 Dummy   16
+Category 2 Dummy   24
+Category 3 Dummy   32
+Category 4 Dummy   40
+Category 5 Dummy   48
+NYT Word Count     52-56
+Word Count Difference (NYT - Globe)   60-64
